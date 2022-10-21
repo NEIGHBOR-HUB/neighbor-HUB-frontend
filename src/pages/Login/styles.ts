@@ -53,7 +53,7 @@ export const LoginForm = styled.div`
   }
 `;
 
-export const BottonFormContent = styled.div`
+export const BottomFormContent = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -108,5 +108,6 @@ export const RegisterContainer = styled.div`
     border: none;
     color: white;
     font-size: 1rem;
+    text-decoration: underline;
   }
 `;

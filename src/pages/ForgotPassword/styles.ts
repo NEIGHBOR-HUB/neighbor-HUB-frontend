@@ -20,9 +20,6 @@ export const RightContent = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  /* background-image: url('login-right-details.svg');
-  background-repeat: no-repeat;
-  background-position-x: right; */
 `;
 
 export const SendEmailForm = styled.div`
@@ -31,7 +28,7 @@ export const SendEmailForm = styled.div`
   width: 24rem;
 
   h1 {
-    color: #480CA8;
+    color: #480ca8;
     margin-bottom: 1rem;
     font-weight: 600;
   }
@@ -46,17 +43,11 @@ export const SendEmailForm = styled.div`
     width: 100%;
 
     font-size: 1rem;
-
-    border: none;
-    border-radius: 10px 10px 0px 0px;
-
-    :nth-child(3) {
-      margin-top: 2px;
-      border-radius: 0px 0px 10px 10px;
-    }
+    background-color: #fafafc;
+    border: 1px solid #e6e6f0;
+    border-radius: 10px;
   }
 `;
-
 
 export const SendButton = styled.button`
   width: 100%;
@@ -69,3 +60,24 @@ export const SendButton = styled.button`
   margin-top: 1rem;
 `;
 
+export const EmailSent = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+
+  h1 {
+    color: #480ca8;
+    margin-bottom: 1rem;
+    font-weight: 600;
+  }
+
+  button{
+    cursor: pointer;
+    margin-top: 1rem;
+    background: none;
+    border: none;
+    color: #480ca8;
+    font-size: 1rem;
+    text-decoration: underline;
+  }
+`;
