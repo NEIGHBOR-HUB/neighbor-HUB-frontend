@@ -1,9 +1,10 @@
 import type { NextPage } from 'next';
 import { Login } from './Login';
+import { Register } from './Register';
 
 const Home: NextPage = () => {
   return (
-    <Login/>
+    <Register/>
   );
 };
 
