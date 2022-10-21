@@ -108,5 +108,6 @@ export const RegisterContainer = styled.div`
     border: none;
     color: white;
     font-size: 1rem;
+    text-decoration: underline;
   }
 `;
