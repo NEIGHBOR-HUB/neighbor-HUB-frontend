@@ -8,7 +8,7 @@ import {
   EmailSent,
 } from './styles';
 
-export function ForgotPassword() {
+export default function ForgotPassword() {
   const [emailSent, setEmailSent] = useState<boolean>(false);
   return (
     <Container>
