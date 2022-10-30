@@ -6,10 +6,10 @@ import { Register } from './Register';
 
 const Home: NextPage = () => {
   return (
-    <Register/>
-    <ForgotPassword/>
-    <CreateTheChangePassword />
-    // <Login/>
+    // <Register/>
+    // <ForgotPassword/>
+    // <CreateTheChangePassword />
+    <Login/>
   );
 };
 
