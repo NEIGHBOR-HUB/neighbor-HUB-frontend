@@ -1,3 +1,4 @@
+import { SideBarComponent } from 'components/SideBarComponent';
 import {
   BottomFormContent,
   Container,
