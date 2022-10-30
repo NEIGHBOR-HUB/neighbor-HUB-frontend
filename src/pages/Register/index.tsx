@@ -6,7 +6,7 @@ import {
   RightContent,
 } from './styles';
 
-export function Register() {
+export default function Register() {
   return (
     <Container>
       <LeftContent>

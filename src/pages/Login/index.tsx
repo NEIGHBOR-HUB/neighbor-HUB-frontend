@@ -1,3 +1,4 @@
+import  Link  from 'next/link'
 import {
   BottomFormContent,
   Container,
@@ -9,7 +10,7 @@ import {
   RightContent,
 } from './styles';
 
-export function Login() {
+export default function Login() {
   return (
     <Container>
       <LeftContent>
@@ -23,14 +24,18 @@ export function Login() {
           <BottomFormContent>
             <input type="checkbox" />
             <span>Lembrar-me</span>
+            <Link href="/ForgotPassword">
             <ForgotPasswordButton>Esqueci minha senha</ForgotPasswordButton>
+            </Link>
           </BottomFormContent>
           <LoginButton>
             Entrar Agora
           </LoginButton>
           <RegisterContainer>
             <span>Não tem conta?</span>
+            <Link href="/Register">
             <button>Cadastre-se</button>
+            </Link>
           </RegisterContainer>
         </LoginForm>
       </RightContent>
